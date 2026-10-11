@@ -67,3 +67,19 @@ Thumbs.db
 /docs/public/product-catalog.json
 /docs/verification/managed-conformance-manifest.json
 /docs/verification/managed-conformance-ledger.json
+# Ignore entire .claude directory (Claude Code local config, no business value)
+.claude/
+
+# Archives (binary blobs; never tracked)
+*.zip
+*.rar
+
+# Video files (binary media; never tracked)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.flv
+*.wmv
+*.m4v
